@@ -1,0 +1,142 @@
+15:781  0:395  Found BIOS RSDP at F05B0
+15:781  0:000  Printing ACPI tables from RSDP F05B0 ...
+15:781  0:000   F05B0: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+15:781  0:000    (Rsdt: BED3A028)
+15:781  0:000    BED3A028: 'RSDT', 'A M I', Rev: 1, Len: 120
+15:781  0:000    Tables in Rsdt: 21
+15:781  0:000    0. BED3A180: 'FACP', 'A M I', Rev: 2, Len: 132
+15:781  0:000        (Dsdt: BED3A208, Facs: BF0FBC00)
+15:781  0:000        BED3A208: 'DSDT', 'A M I', Rev: 2, Len: 164210
+15:783  0:002        BF0FBC00: 'FACS', Ver: 0, Len: 64
+15:783  0:000    1. BED62498: 'APIC', 'A M I', Rev: 3, Len: 132
+15:783  0:000    2. BED62520: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:783  0:000    3. BED62568: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:783  0:000    4. BED625A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:783  0:000    5. BED62648: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+15:783  0:000    6. BED657A0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+15:783  0:000    7. BED67CE8: 'HPET', 'SKL', Rev: 1, Len: 56
+15:783  0:000    8. BED67D20: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+15:783  0:000    9. BED68B60: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+15:783  0:000    10. BED6B638: 'UEFI', 'EDK2', Rev: 1, Len: 66
+15:783  0:000    11. BED6B680: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+15:783  0:000    12. BED6C560: 'LPIT', 'SKL', Rev: 1, Len: 148
+15:783  0:000    13. BED6C5F8: 'WSMT', 'SKL', Rev: 1, Len: 40
+15:783  0:000    14. BED6C620: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+15:783  0:000    15. BED6C8C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+15:783  0:000    16. BED6F8C8: 'DBGP', '', Rev: 1, Len: 52
+15:783  0:000    17. BED6F900: 'DBG2', '', Rev: 0, Len: 84
+15:783  0:000    18. BED6F958: 'VFCT', 'A M I', Rev: 1, Len: 65668
+15:783  0:000    19. BED7F9E0: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:783  0:000    20. BED7FA18: 'DMAR', 'SKL', Rev: 1, Len: 112
+15:783  0:000  Found UEFI Acpi 2.0 RSDP at BED3A000
+15:783  0:000  Saving ACPI tables from RSDP BED3A000 to EFI\CLOVER\ACPI\origin ...
+15:783  0:000   BED3A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:783  0:000    (Xsdt: BED3A0A8, Rsdt: BED3A028)
+15:783  0:000    BED3A0A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+15:783  0:000    BED3A028: 'RSDT', 'A M I', Rev: 1, Len: 120
+15:783  0:000    Tables in Xsdt: 21
+15:783  0:000    0. BED62380: 'FACP', 'A M I', Rev: 6, Len: 276
+15:783  0:000        (Dsdt: BED3A208, Facs: BF0FBC40, XDsdt: BED3A208, XFacs: 0)
+15:783  0:000        BED3A208: 'DSDT', 'A M I', Rev: 2, Len: 164210
+15:785  0:002        BF0FBC40: 'FACS', Ver: 2, Len: 64
+15:785  0:000    1. BED62498: 'APIC', 'A M I', Rev: 3, Len: 132
+15:785  0:000    2. BED62520: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:785  0:000    3. BED62568: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:785  0:000    4. BED625A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:785  0:000    5. BED62648: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+15:785  0:000    6. BED657A0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+15:785  0:000    7. BED67CE8: 'HPET', 'SKL', Rev: 1, Len: 56
+15:785  0:000    8. BED67D20: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+15:785  0:000    9. BED68B60: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+15:785  0:000    10. BED6B638: 'UEFI', 'EDK2', Rev: 1, Len: 66
+15:785  0:000    11. BED6B680: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+15:785  0:000    12. BED6C560: 'LPIT', 'SKL', Rev: 1, Len: 148
+15:785  0:000    13. BED6C5F8: 'WSMT', 'SKL', Rev: 1, Len: 40
+15:785  0:000    14. BED6C620: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+15:785  0:000    15. BED6C8C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+15:785  0:000    16. BED6F8C8: 'DBGP', '', Rev: 1, Len: 52
+15:785  0:000    17. BED6F900: 'DBG2', '', Rev: 0, Len: 84
+15:785  0:000    18. BED6F958: 'VFCT', 'A M I', Rev: 1, Len: 65668
+15:785  0:000    19. BED7F9E0: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:785  0:000    20. BED7FA18: 'DMAR', 'SKL', Rev: 1, Len: 112
+15:785  0:000    Tables in Rsdt: 21
+15:785  0:000    0. BED3A180: 'FACP', 'A M I', Rev: 2, Len: 132
+15:785  0:000        (Dsdt: BED3A208, Facs: BF0FBC00)
+15:785  0:000        BED3A208: 'DSDT', 'A M I', Rev: 2, Len: 164210
+15:787  0:002        BF0FBC00: 'FACS', Ver: 0, Len: 64
+15:787  0:000    1. BED62498: 'APIC', 'A M I', Rev: 3, Len: 132
+15:787  0:000    2. BED62520: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:787  0:000    3. BED62568: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:787  0:000    4. BED625A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:787  0:000    5. BED62648: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+15:787  0:000    6. BED657A0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+15:787  0:000    7. BED67CE8: 'HPET', 'SKL', Rev: 1, Len: 56
+15:787  0:000    8. BED67D20: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+15:787  0:000    9. BED68B60: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+15:787  0:000    10. BED6B638: 'UEFI', 'EDK2', Rev: 1, Len: 66
+15:787  0:000    11. BED6B680: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+15:787  0:000    12. BED6C560: 'LPIT', 'SKL', Rev: 1, Len: 148
+15:787  0:000    13. BED6C5F8: 'WSMT', 'SKL', Rev: 1, Len: 40
+15:787  0:000    14. BED6C620: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+15:787  0:000    15. BED6C8C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+15:787  0:000    16. BED6F8C8: 'DBGP', '', Rev: 1, Len: 52
+15:787  0:000    17. BED6F900: 'DBG2', '', Rev: 0, Len: 84
+15:787  0:000    18. BED6F958: 'VFCT', 'A M I', Rev: 1, Len: 65668
+15:787  0:000    19. BED7F9E0: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:787  0:000    20. BED7FA18: 'DMAR', 'SKL', Rev: 1, Len: 112
+15:787  0:000  Found UEFI Acpi 1.0 RSDP at BED3A000
+15:787  0:000  Printing ACPI tables from RSDP BED3A000 ...
+15:787  0:000   BED3A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:787  0:000    (Xsdt: BED3A0A8, Rsdt: BED3A028)
+15:787  0:000    BED3A0A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+15:787  0:000    BED3A028: 'RSDT', 'A M I', Rev: 1, Len: 120
+15:787  0:000    Tables in Xsdt: 21
+15:787  0:000    0. BED62380: 'FACP', 'A M I', Rev: 6, Len: 276
+15:787  0:000        (Dsdt: BED3A208, Facs: BF0FBC40, XDsdt: BED3A208, XFacs: 0)
+15:787  0:000        BED3A208: 'DSDT', 'A M I', Rev: 2, Len: 164210
+15:789  0:002        BF0FBC40: 'FACS', Ver: 2, Len: 64
+15:789  0:000    1. BED62498: 'APIC', 'A M I', Rev: 3, Len: 132
+15:789  0:000    2. BED62520: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:789  0:000    3. BED62568: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:789  0:000    4. BED625A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:789  0:000    5. BED62648: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+15:789  0:000    6. BED657A0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+15:789  0:000    7. BED67CE8: 'HPET', 'SKL', Rev: 1, Len: 56
+15:789  0:000    8. BED67D20: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+15:789  0:000    9. BED68B60: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+15:789  0:000    10. BED6B638: 'UEFI', 'EDK2', Rev: 1, Len: 66
+15:789  0:000    11. BED6B680: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+15:789  0:000    12. BED6C560: 'LPIT', 'SKL', Rev: 1, Len: 148
+15:789  0:000    13. BED6C5F8: 'WSMT', 'SKL', Rev: 1, Len: 40
+15:789  0:000    14. BED6C620: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+15:789  0:000    15. BED6C8C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+15:789  0:000    16. BED6F8C8: 'DBGP', '', Rev: 1, Len: 52
+15:789  0:000    17. BED6F900: 'DBG2', '', Rev: 0, Len: 84
+15:789  0:000    18. BED6F958: 'VFCT', 'A M I', Rev: 1, Len: 65668
+15:789  0:000    19. BED7F9E0: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:789  0:000    20. BED7FA18: 'DMAR', 'SKL', Rev: 1, Len: 112
+15:789  0:000    Tables in Rsdt: 21
+15:789  0:000    0. BED3A180: 'FACP', 'A M I', Rev: 2, Len: 132
+15:789  0:000        (Dsdt: BED3A208, Facs: BF0FBC00)
+15:789  0:000        BED3A208: 'DSDT', 'A M I', Rev: 2, Len: 164210
+15:791  0:002        BF0FBC00: 'FACS', Ver: 0, Len: 64
+15:791  0:000    1. BED62498: 'APIC', 'A M I', Rev: 3, Len: 132
+15:791  0:000    2. BED62520: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:791  0:000    3. BED62568: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:791  0:000    4. BED625A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:791  0:000    5. BED62648: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+15:791  0:000    6. BED657A0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+15:791  0:000    7. BED67CE8: 'HPET', 'SKL', Rev: 1, Len: 56
+15:791  0:000    8. BED67D20: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+15:791  0:000    9. BED68B60: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+15:791  0:000    10. BED6B638: 'UEFI', 'EDK2', Rev: 1, Len: 66
+15:791  0:000    11. BED6B680: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+15:791  0:000    12. BED6C560: 'LPIT', 'SKL', Rev: 1, Len: 148
+15:791  0:000    13. BED6C5F8: 'WSMT', 'SKL', Rev: 1, Len: 40
+15:791  0:000    14. BED6C620: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+15:791  0:000    15. BED6C8C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+15:791  0:000    16. BED6F8C8: 'DBGP', '', Rev: 1, Len: 52
+15:791  0:000    17. BED6F900: 'DBG2', '', Rev: 0, Len: 84
+15:791  0:000    18. BED6F958: 'VFCT', 'A M I', Rev: 1, Len: 65668
+15:791  0:000    19. BED7F9E0: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:791  0:000    20. BED7FA18: 'DMAR', 'SKL', Rev: 1, Len: 112
